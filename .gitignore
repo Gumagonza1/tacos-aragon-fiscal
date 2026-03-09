@@ -1,0 +1,44 @@
+# =============================================
+# TACOS ARAGÓN BOT FISCAL — .gitignore
+# =============================================
+
+# --- CREDENCIALES (NUNCA subir) ---
+.env
+*.env
+
+# --- E.FIRMA / FIEL (equivale a tu firma legal) ---
+keys/
+firma.cer
+firma.key
+*.cer
+*.key
+
+# --- ARCHIVOS DESCARGADOS DEL SAT (datos fiscales privados) ---
+downloads/
+output/
+
+# --- REPORTES GENERADOS ---
+*.xlsx
+reporte_fiscal_*
+
+# --- CONTRASEÑAS EN TEXTO PLANO ---
+contrasena*.txt
+
+# --- ARCHIVOS DE DEBUG ---
+debug_*.py
+debug*.xml
+*debug*.xml
+
+# --- PYTHON ---
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# --- HERRAMIENTAS DE DESARROLLO ---
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

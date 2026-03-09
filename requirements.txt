@@ -1,0 +1,21 @@
+# === BOT FISCAL TACOS ARAGÓN ===
+# Conexión SAT (Web Service SOAP del SAT)
+cfdiclient>=1.4.0
+
+# Procesamiento XML/CFDI
+lxml
+xmltodict
+
+# Procesamiento de datos
+pandas
+openpyxl
+
+# PDF (constancias de retención)
+pdfplumber
+
+# Email (IMAP para retenciones)
+imap-tools
+
+# Utilidades
+python-dotenv
+requests
